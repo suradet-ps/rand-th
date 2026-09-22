@@ -60,7 +60,7 @@ Rand implement การดำเนินการแบบสุ่มที�
     จากสไลซ์พร้อมน้ำหนัก
 -   [`index::sample_weighted`]: สุ่มดัชนีที่แตกต่างกัน `amount` ตัวจากช่วงพร้อม
     น้ำหนัก
--   implement เอง: ดูหัวข้อใน [กระบวนการสุ่ม](guide-process.html#การสมแบบไมใสคน)
+-   implement เอง: ดูหัวข้อใน [กระบวนการสุ่ม](guide-process.html#การสุมแบบไมใสคืน)
 
 [`Distribution`]: https://docs.rs/rand/latest/rand/distr/trait.Distribution.html
 [`IteratorRandom`]: https://docs.rs/rand/latest/rand/seq/trait.IteratorRandom.html

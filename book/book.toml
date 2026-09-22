@@ -1,0 +1,13 @@
+[book]
+language = "th"
+title = "The Rust Rand Book (ฉบับภาษาไทย)"
+description = "เอกสารเพิ่มเติมสำหรับไลบรารีเลขสุ่ม Rand ของภาษา Rust"
+authors = ["The Rand Project Developers"]
+
+[rust]
+edition = "2024"
+
+[output.html]
+git-repository-url = "https://github.com/suradet-ps/rand-th/tree/main/book/src"
+edit-url-template = "https://github.com/suradet-ps/rand-th/edit/main/book/{path}"
+smart-punctuation = true

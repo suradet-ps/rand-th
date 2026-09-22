@@ -75,6 +75,8 @@
 | rounding | การปัดเศษ (rounding) | |
 | benchmark | การวัดประสิทธิภาพ (benchmark) | |
 | hot loop | ลูปที่ถูกเรียกใช้งานบ่อยครั้ง (hot loop) | |
+| build | การ build | คงคำว่า build ในบริบทของกระบวนการ build หรือคำสั่ง build (ไม่ใช้ "บิลด์") |
+| lazy | แบบเลซี่ (lazy) | การเริ่มต้นเมื่อถูกเรียกใช้งานครั้งแรก |
 | unsafe | unsafe (คงเดิม) | คำสงวนของภาษา Rust |
 | SIMD | SIMD (คงเดิม) | ชื่อชนิดข้อมูลและฟีเจอร์ |
 | WebAssembly / WASM | WebAssembly / WASM (คงเดิม) | |

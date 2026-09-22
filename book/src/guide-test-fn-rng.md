@@ -41,7 +41,7 @@ fn main() {
 }
 ```
 
-ในการทดสอบสิ่งนี้ เราสร้าง `MockCryptoRng` ที่ implement `TryRngCore` และ `TryCryptoRng` ในโมดูลทดสอบของเราได้ โปรดทราบว่า `MockCryptoRng` เป็น private และ `#[cfg(test)] mod tests` ถูกควบคุมด้วย cfg เฉพาะสภาพแวดล้อมทดสอบของเรา จึงมั่นใจได้ว่า `MockCryptoRng` จะไม่ถูกนำไปใช้ในโปรดักชันโดยไม่ตั้งใจ
+ในการทดสอบสิ่งนี้ เราสร้าง `MockCryptoRng` ที่ implement `TryRngCore` และ `TryCryptoRng` ในโมดูลทดสอบของเราได้ โปรดทราบว่า `MockCryptoRng` เป็นแบบ private และ `#[cfg(test)] mod tests` ถูกควบคุมด้วย cfg เฉพาะสภาพแวดล้อมทดสอบของเรา จึงมั่นใจได้ว่า `MockCryptoRng` จะไม่ถูกนำไปใช้ในโปรดักชันโดยไม่ตั้งใจ
 
 ```rust,noplayground
 #[cfg(test)]

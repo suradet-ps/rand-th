@@ -74,7 +74,7 @@ mdbook watch
 ```
 
 โปรดทราบว่าลิงก์ในหนังสือเป็นแบบสัมพัทธ์และออกแบบให้ทำงานใน
-[หนังสือที่เผยแพร่แล้ว](https://rust-random.github.io/book/) หากคุณ build หนังสือในเครื่อง คุณอาจต้องการตั้ง symbolic link ชี้ไปยัง build ของเอกสาร API ของคุณ:
+[หนังสือที่เผยแพร่แล้ว](https://rust-random.github.io/book/) หากคุณ build หนังสือในเครื่อง คุณอาจต้องการตั้งลิงก์สัญลักษณ์ (symbolic link) ชี้ไปยัง build ของเอกสาร API ของคุณ:
 ```sh
 ln -s ../rand/target/doc rand
 ```

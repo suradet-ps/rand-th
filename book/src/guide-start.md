@@ -1,15 +1,15 @@
 # เริ่มต้นใช้งาน
 
-หากคุณยังไม่ได้ติดตั้ง โปรด[ติดตั้ง Rust](https://www.rust-lang.org/learn/get-started)
+หากคุณยังไม่ได้ติดตั้ง Rust ให้เริ่มต้นด้วยการ[ติดตั้ง Rust](https://www.rust-lang.org/learn/get-started) ก่อนเป็นอันดับแรก
 
-ต่อไป มาสร้างเครตใหม่และเพิ่ม rand เป็นดีเพนเดนซีกัน:
+จากนั้น มาสร้างเครตใหม่และเพิ่ม rand เข้ามาเป็นดีเพนเดนซีกัน:
 ```sh
 cargo new randomly
 cd randomly
 cargo add rand 
 ```
 
-ตอนนี้ วางโค้ดต่อไปนี้ลงใน `src/main.rs`:
+ทีนี้ นำโค้ดต่อไปนี้ไปวางลงในไฟล์ `src/main.rs`:
 ```rust
 use rand::prelude::*;
 
@@ -25,7 +25,7 @@ fn main() {
 }
 ```
 
-ตอนนี้ลองรันกันเลย!
+เรียบร้อยแล้ว มาลองสั่งรันโปรแกรมกันเลย!
 ```sh
 $ cargo run
    Compiling [..]
@@ -38,7 +38,7 @@ You got lucky!
 
 ## เครตอื่นๆ
 
-[เครต](crates.md)อื่นๆ บางตัวถูกใช้ในคู่มือนี้ เมื่อจำเป็น คุณสามารถแก้ไขส่วน `[dependencies]` ใน `Cargo.toml` หรือใช้ `cargo add` ได้:
+ในคู่มือเล่มนี้ยังมีการเรียกใช้[เครต](crates.md)อื่นๆ ประกอบด้วย เมื่อจำเป็นต้องใช้งาน คุณสามารถเลือกเพิ่มดีเพนเดนซีได้ทั้งการแก้ไขส่วน `[dependencies]` ในไฟล์ `Cargo.toml` ด้วยตนเอง หรือจะใช้คำสั่ง `cargo add` ก็ได้:
 ```sh
 $ cargo add rand_distr
     Updating crates.io index

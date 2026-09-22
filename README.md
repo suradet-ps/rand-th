@@ -22,12 +22,12 @@ the official Rust Rand Book: 33 source files (31 linked chapters, an
 unlisted overview page, and the summary), built with
 mdbook, terminology locked by a single glossary, and every code block
 byte-identical to the original. The links are checked against the
-built book (430 anchors), the structure mirrors the upstream repo
+built book (431 anchors), the structure mirrors the upstream repo
 file-for-file, and the license travels with the text. Built for the
 Thai-speaking Rustacean:
 [suradet-ps.github.io/rand-th](https://suradet-ps.github.io/rand-th/).
 
-| 31 chapters translated ▣ | Glossary ▣ | Links 430/430 ▣ | Build passing ▣ |
+| 31 chapters translated ▣ | Glossary ▣ | Links 431/431 ▣ | Build passing ▣ |
 |---|---|---|---|
 | 45 code blocks byte-exact ▣ | 441 links ▣ | 6 updating guides ▣ | MIT OR Apache-2.0 ▣ |
 
@@ -99,7 +99,7 @@ One stack, zero custom JS, several quiet helpers.
   block (45 of them), heading level, and link target against
   upstream `rust-random/book` - byte-exact or it does not pass.
 - **Checks** - `scripts/check-links.ps1` walks the built book and
-  resolves every anchor link against real heading ids - 430 of them,
+  resolves every anchor link against real heading ids - 431 of them,
   all reachable.
 - **Builds** - mdbook renders static HTML into `book/book/`, zero
   server runtime, readable offline and searchable by built-in static
